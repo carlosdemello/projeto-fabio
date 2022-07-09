@@ -53,14 +53,41 @@ header > h1 {
 }
 
 #primeira{
-    padding: 30px;
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
 }
 
-.tabela {
-    background-color: #4c64a3;
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 150px;
     position: absolute;
+    right: 80px;
+    top: 350px;
+    background-color: rgb(119, 105, 105); 
+}
+
+tr :hover {
+    background-color: #C44854;
+}
+
+td {
+    border: 1px solid black;
+    padding-left: 20px;
     
 }
+
+ .tabo {
+    font-size: 2em;
+    position: absolute;
+    right: 75px;
+    top: 225px;
+}
+
+
+
+
 
 
 
